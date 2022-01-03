@@ -21,7 +21,7 @@ If the socket is ready for reading, then mask & selectors.EVENT_READ is true, an
 
 Any data that’s read is appended to data.outb so it can be sent later
 
-**MULTI CONNECTION CLIENT SIDE**
+# Multi connection client side
 
  it starts by initiating connections via start_connections()
  
